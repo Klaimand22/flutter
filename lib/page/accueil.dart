@@ -18,7 +18,7 @@ class AccueilState extends State<Accueil> {
   }
 
   void code() {
-    if (codecontroller.text == "1234") {
+    if (codecontroller.text == "12345") {
       setState(() {
         defi1 = true;
       });
